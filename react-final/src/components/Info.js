@@ -1,13 +1,13 @@
 import React from 'react';
-import infoimg from '../image/24.jpeg'
+import infoimg from '../image/dragonball.jpg'
 
 function Info(props) {
     return (
         <div>
             <img src={infoimg} style={{width:'150px'}}/>
             <br/><br/>
-            <div>냥뇽녕냥</div>
-            <div>02-555-111</div>
+            <div>손오공</div>
+            <div>02-123-4567</div>
         </div>
     );
 }
