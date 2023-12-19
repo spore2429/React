@@ -38,8 +38,8 @@ function Shop(props) {
                 navi("/shop/form");
             }}>상품등록</button>
             
-            <hr/>
-            <table className='table table-bordered' style={{width:'500px'}}>
+            <hr style={{width:'500px'}}/>
+            <table className='table table-bordered' style={{width:'500px'}} >
                 <thead>
                     <tr>
                         <th width='60' style={{textAlign:'center'}}>번호</th>
